@@ -1,1 +1,8 @@
-rootProject.name = "dupedb-api"
+pluginManagement {
+    repositories {
+        maven { url = uri("https://maven.fabricmc.net/") }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "dupedb-mod"

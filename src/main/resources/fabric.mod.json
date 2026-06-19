@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "dupedbmod",
+  "version": "1.0.0",
+  "name": "DupeDB Mod",
+  "description": "Browse Minecraft exploits from the DupeDB database in-game",
+  "authors": ["Defom09"],
+  "contact": {
+    "homepage": "https://dupedb.net",
+    "sources": "https://github.com/Defom09/dupedb-minecraft-mod"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.defom.dupedbmod.DupeDBModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": ">=0.100.0",
+    "minecraft": ">=1.21.1"
+  }
+}
